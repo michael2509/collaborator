@@ -10,7 +10,7 @@ import javax.validation.constraints.Size;
 
 public class Collaborator {
 
-    private Long id;
+    private Long id; //
 
     @Size(max = 10, message = "The field must be at least {min} characters")
     private String internalId;
